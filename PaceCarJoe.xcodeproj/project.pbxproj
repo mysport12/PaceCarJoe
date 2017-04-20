@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		4419F4321AD88D0200904268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419F4311AD88D0200904268 /* AppDelegate.swift */; };
 		4419F4351AD88D0200904268 /* PaceCarJoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4419F4331AD88D0200904268 /* PaceCarJoe.xcdatamodeld */; };
-		4419F4371AD88D0200904268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419F4361AD88D0200904268 /* ViewController.swift */; };
 		4419F43A1AD88D0200904268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4419F4381AD88D0200904268 /* Main.storyboard */; };
 		4419F43C1AD88D0200904268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4419F43B1AD88D0200904268 /* Images.xcassets */; };
 		4419F43F1AD88D0200904268 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4419F43D1AD88D0200904268 /* LaunchScreen.xib */; };
 		4419F44B1AD88D0200904268 /* PaceCarJoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419F44A1AD88D0200904268 /* PaceCarJoeTests.swift */; };
+		4419F4551AD88E9C00904268 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419F4541AD88E9C00904268 /* MainViewController.swift */; };
+		4419F4571AD88F0F00904268 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419F4561AD88F0F00904268 /* AboutViewController.swift */; };
+		44EF4D191B0568E800EC6A6C /* AuthenticateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D181B0568E800EC6A6C /* AuthenticateUser.swift */; };
+		44EF4D1B1B05693500EC6A6C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF4D1A1B05693500EC6A6C /* LocalAuthentication.framework */; };
+		44EF4D1D1B0569A200EC6A6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D1C1B0569A200EC6A6C /* LoginViewController.swift */; };
+		44EF4D1F1B0569F500EC6A6C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D1E1B0569F500EC6A6C /* CreateAccountViewController.swift */; };
+		44EF4D221B058B7000EC6A6C /* James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44EF4D211B058B7000EC6A6C /* James.jpg */; };
+		44EF4D241B09195900EC6A6C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D231B09195900EC6A6C /* MusicViewController.swift */; };
+		44EF4D261B09199500EC6A6C /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D251B09199500EC6A6C /* ShowsViewController.swift */; };
+		44EF4D281B0919A500EC6A6C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF4D271B0919A500EC6A6C /* ContactViewController.swift */; };
+		44EF4D2A1B093C4E00EC6A6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF4D291B093C4E00EC6A6C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +41,23 @@
 		4419F4301AD88D0200904268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4419F4311AD88D0200904268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4419F4341AD88D0200904268 /* PaceCarJoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaceCarJoe.xcdatamodel; sourceTree = "<group>"; };
-		4419F4361AD88D0200904268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4419F4391AD88D0200904268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4419F43B1AD88D0200904268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4419F43E1AD88D0200904268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4419F4441AD88D0200904268 /* PaceCarJoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaceCarJoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4419F4491AD88D0200904268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4419F44A1AD88D0200904268 /* PaceCarJoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceCarJoeTests.swift; sourceTree = "<group>"; };
+		4419F4541AD88E9C00904268 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4419F4561AD88F0F00904268 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		44EF4D181B0568E800EC6A6C /* AuthenticateUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateUser.swift; sourceTree = "<group>"; };
+		44EF4D1A1B05693500EC6A6C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		44EF4D1C1B0569A200EC6A6C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44EF4D1E1B0569F500EC6A6C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		44EF4D211B058B7000EC6A6C /* James.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = James.jpg; sourceTree = "<group>"; };
+		44EF4D231B09195900EC6A6C /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		44EF4D251B09199500EC6A6C /* ShowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
+		44EF4D271B0919A500EC6A6C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		44EF4D291B093C4E00EC6A6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EF4D2A1B093C4E00EC6A6C /* AVFoundation.framework in Frameworks */,
+				44EF4D1B1B05693500EC6A6C /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +102,14 @@
 			isa = PBXGroup;
 			children = (
 				4419F4311AD88D0200904268 /* AppDelegate.swift */,
-				4419F4361AD88D0200904268 /* ViewController.swift */,
+				44EF4D181B0568E800EC6A6C /* AuthenticateUser.swift */,
+				44EF4D1C1B0569A200EC6A6C /* LoginViewController.swift */,
+				44EF4D1E1B0569F500EC6A6C /* CreateAccountViewController.swift */,
+				4419F4541AD88E9C00904268 /* MainViewController.swift */,
+				4419F4561AD88F0F00904268 /* AboutViewController.swift */,
+				44EF4D251B09199500EC6A6C /* ShowsViewController.swift */,
+				44EF4D271B0919A500EC6A6C /* ContactViewController.swift */,
+				44EF4D231B09195900EC6A6C /* MusicViewController.swift */,
 				4419F4381AD88D0200904268 /* Main.storyboard */,
 				4419F43B1AD88D0200904268 /* Images.xcassets */,
 				4419F43D1AD88D0200904268 /* LaunchScreen.xib */,
@@ -93,6 +122,9 @@
 		4419F42F1AD88D0200904268 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44EF4D1A1B05693500EC6A6C /* LocalAuthentication.framework */,
+				44EF4D291B093C4E00EC6A6C /* AVFoundation.framework */,
+				44EF4D211B058B7000EC6A6C /* James.jpg */,
 				4419F4301AD88D0200904268 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,6 +229,7 @@
 			files = (
 				4419F43A1AD88D0200904268 /* Main.storyboard in Resources */,
 				4419F43F1AD88D0200904268 /* LaunchScreen.xib in Resources */,
+				44EF4D221B058B7000EC6A6C /* James.jpg in Resources */,
 				4419F43C1AD88D0200904268 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4419F4371AD88D0200904268 /* ViewController.swift in Sources */,
+				44EF4D261B09199500EC6A6C /* ShowsViewController.swift in Sources */,
+				44EF4D1F1B0569F500EC6A6C /* CreateAccountViewController.swift in Sources */,
+				44EF4D1D1B0569A200EC6A6C /* LoginViewController.swift in Sources */,
 				4419F4351AD88D0200904268 /* PaceCarJoe.xcdatamodeld in Sources */,
 				4419F4321AD88D0200904268 /* AppDelegate.swift in Sources */,
+				44EF4D241B09195900EC6A6C /* MusicViewController.swift in Sources */,
+				4419F4571AD88F0F00904268 /* AboutViewController.swift in Sources */,
+				44EF4D191B0568E800EC6A6C /* AuthenticateUser.swift in Sources */,
+				4419F4551AD88E9C00904268 /* MainViewController.swift in Sources */,
+				44EF4D281B0919A500EC6A6C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaceCarJoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaceCarJoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +453,7 @@
 				4419F4501AD88D0200904268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4419F4511AD88D0200904268 /* Build configuration list for PBXNativeTarget "PaceCarJoeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +462,7 @@
 				4419F4531AD88D0200904268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
